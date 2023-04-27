@@ -1,0 +1,42 @@
+@import '../base/misinis';
+
+.benefit {
+    min-height: 510px;
+
+    .header {
+        font-size: 21px;
+        font-weight: 700;
+        color: $main-color;
+        margin-bottom: 42px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__item {
+        width: 320px;
+        text-align: center;
+
+        svg {
+            width: 102px;
+            height: 102px;
+            fill: #ffab88;
+        }
+    }
+    
+    &__header {
+        font-size: 17.5px;
+        font-weight: 700;
+        margin: 15px 0 5px 0;
+    }
+
+    &__text {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+    }
+}
