@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'base/misinis';
+@import 'blocks/layout';
+@import 'blocks/catalog';
+
+* {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+
+    &_header {
+        max-width: 1840px;
+    }
+}
