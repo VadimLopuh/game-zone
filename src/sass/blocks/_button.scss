@@ -1,4 +1,9 @@
 .button {
+    width: 40px;
+    height: 40px;
+    background: #ffab88;
+    border: none;
+    border-radius: 50%;
     
     &_catalog {
         width: 158px;
@@ -13,6 +18,16 @@
             width: 21px;
             height: 21px;
             margin-right: 10px;
+        }
+    }
+
+    &_sale {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        img {
+            width: 23px;
         }
     }
 }
