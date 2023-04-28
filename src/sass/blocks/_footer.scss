@@ -1,0 +1,66 @@
+@import 'base/misinis';
+
+.footer {
+    background: #ffab88;
+    padding: 76px 0 28px 0;
+
+    &__zone {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 400px auto;
+    }
+
+    &__left {
+        display: grid;
+        gap: 1rem;
+        
+        &_logo {
+            max-width: 180px;
+
+            img {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+
+        &_descr {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            
+            a {
+                display: block;
+            }
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &__right {
+        display: flex;
+
+        &_descr {
+            width: 210px;
+            // padding: 0 40px 0 0;
+            font-size: 12px;
+            font-weight: 400;
+            display: grid;
+            gap: 0.75rem;
+            grid-auto-rows: max-content;
+
+            a {
+                display: block;
+                color: #000;
+                text-decoration: none;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
